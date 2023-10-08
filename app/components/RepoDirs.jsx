@@ -20,7 +20,7 @@ const RepoDirs = async ( { name } ) => {
         {dirs.map((dir) => (
           <li key={dir.path}>
             <Link href={`/code/repos/${name}/${dir.path}`}>{dir.path}</Link>
-          </li>
+          </li> 
         ))}
       </ul>
     </>
